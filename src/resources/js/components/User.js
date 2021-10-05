@@ -18,8 +18,8 @@ function User() {
         <div>
             <h1>Userページ</h1>
             <ul>
-                {users.map(user => (
-                    <li key="{user.id}">
+                {users.map((user) => (
+                    <li key={user.id}>
                         {user.name}
                         <Link to={`/user/${user.id}`}>詳細</Link>
                     </li>

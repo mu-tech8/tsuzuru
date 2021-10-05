@@ -3,13 +3,10 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
     return (
-        <nav className="bg-orange">
+        <nav bg>
             <ul className="nav">
-                <Link to="/about">
-                    <li className="ml-2">About</li>
-                </Link>
-                <Link to="/user">
-                    <li className="ml-2">User</li>
+                <Link to="/">
+                    <li>(oto)tsuzuru</li>
                 </Link>
             </ul>
         </nav>
